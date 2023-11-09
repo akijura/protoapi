@@ -9,5 +9,5 @@ Protocol Buffer
 5.go install google.golang.org/protobuf/cmd/protoc-gen-go@latest
 6.export PATH="$PATH:$(go env GOPATH)/bin"
 
-# generate protfo files with golang
+# generate proto pb files with golang
 protoc --go_out=. --go_opt=paths=source_relative --go-grpc_out=. --go-grpc_opt=paths=source_relative protoapi.proto
